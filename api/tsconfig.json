@@ -1,14 +1,14 @@
 {
-  "compilerOptions": {
-    "target": "es2020",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "outDir": "dist",
-    "baseUrl": ".",
-    "types": ["node"]
-  },
-  "include": ["src"]
+	"compilerOptions": {
+		"target": "es2020",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"outDir": "dist",
+		"baseUrl": ".",
+		"types": ["node"]
+	},
+	"include": ["src","drizzle.config.ts"]
 }
