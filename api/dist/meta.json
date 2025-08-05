@@ -1,0 +1,22 @@
+{
+	"inputs": {
+		"src/server.ts": {
+			"bytes": 212,
+			"imports": [
+				{ "path": "express", "kind": "import-statement", "external": true }
+			],
+			"format": "esm"
+		}
+	},
+	"outputs": {
+		"dist/index.js": {
+			"imports": [
+				{ "path": "express", "kind": "require-call", "external": true }
+			],
+			"exports": [],
+			"entryPoint": "src/server.ts",
+			"inputs": { "src/server.ts": { "bytesInOutput": 163 } },
+			"bytes": 636
+		}
+	}
+}
