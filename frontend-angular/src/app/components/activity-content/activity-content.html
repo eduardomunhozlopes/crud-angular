@@ -1,0 +1,17 @@
+<div class="activity-container">
+	<div class="activity-status">
+		<activity-status-card [cardData]="{ count: 5, status: 'Total', color: 'var(--black)' }"></activity-status-card>
+		<activity-status-card [cardData]="{ count: 5, status: 'Em andamento', color: 'var(--blue-500)' }"></activity-status-card>
+		<activity-status-card [cardData]="{ count: 5, status: 'Finalizadas', color: 'var(--green-700)' }"></activity-status-card>
+		<activity-status-card [cardData]="{ count: 5, status: 'Canceladas', color: 'var(--red-600)' }"></activity-status-card>
+	</div>
+	<div class="activity-filter">
+		<activity-filter></activity-filter>
+	</div>
+	<div class="activity-list">
+		<activity-card></activity-card>
+		<activity-card></activity-card>
+		<activity-card></activity-card>
+		<activity-card></activity-card>
+	</div>
+</div>
